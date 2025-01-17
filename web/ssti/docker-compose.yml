@@ -1,8 +1,0 @@
-version: '3.8'
-services:
-  ssti_challenge:
-    build: .
-    ports:
-      - "5000:5000"
-    environment:
-      - FLAG=ctf{s3cur3_SSTI_3xp10it}
