@@ -6,7 +6,7 @@ COPY app/ /app/
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-ENV FLAG=udctf{s3cur3_SSTI_3xp10it}
+ENV FLAG=ctf{s3cur3_SSTI_3xp10it}
 
 EXPOSE 5000
 
